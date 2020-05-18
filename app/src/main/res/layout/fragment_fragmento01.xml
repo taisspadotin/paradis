@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmento01"
+    android:background="#99DCDCDC"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:text="Paradis é um aplicativo desenvolvido para que você conheça as melhores frases\nPara acessar as frases utilize o menu acima, e adicione as frases aos favoritos se desejar clicando na estrela.\npara remover basta clicar na frase que deseja excluir"
+        android:textColor="#000000"
+        android:id="@+id/tvf1"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvvo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textColor="#000000"
+        android:textSize="25dp"/>
+
+</LinearLayout>

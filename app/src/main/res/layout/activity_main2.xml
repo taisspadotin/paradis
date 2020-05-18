@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/fundo02"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Categorias"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_marginLeft="100dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:id="@+id/esp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnfilosofos"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:text="Filosofos"
+        android:background="#90DCDCDC"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="83dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/esp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnliteratura"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:text="Literatura"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="141dp"
+        tools:ignore="MissingConstraints"
+        android:background="#90DCDCDC"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/esp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnajuda"
+        android:background="#90DCDCDC"
+        android:layout_width="353dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Auto-ajuda"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

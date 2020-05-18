@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Literatura"
+    android:orientation="vertical"
+    android:background="@drawable/fundo02">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Literatura"
+        android:textColor="#98ffffff"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="116dp"
+        android:textSize="30dp"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/sp1"
+        android:layout_width="wrap_content"
+        android:layout_height="20px"
+        android:text="\n"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#90DCDCDC"
+            android:textColor="#000000"
+            android:text="' Quando acordei hoje de manhã, eu sabia quem eu era, mas acho que já mudei muitas vezes desde então'\n\n"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="223dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:text="-Alice no País das maravilhas – Lewis Carroll"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="223dp" />
+
+        <Button
+            android:id="@+id/fvl1"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/e1"
+            android:paddingRight="1px" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="20px"
+        android:text="\n"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="223dp" />
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:background="#90DCDCDC"
+            android:textColor="#000000"
+            android:text="'Que tempos penosos foram aqueles anos – ter o desejo e necessidade de viver, mas não a habilidade.'\n\n"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="223dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="-Misto Quente – Charles Bukowski"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="223dp" />
+
+        <Button
+            android:id="@+id/fvl2"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/e1"
+            android:paddingRight="1px" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
